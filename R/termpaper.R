@@ -1,4 +1,4 @@
-termpaper <- function(toc = TRUE) {
+termpaper <- function(toc = TRUE, ...) {
 
   # get the locations of resource files located within the package
   latex <- system.file("/Users/Thomas/Desktop/templates/thomastemp/inst/rmarkdown/templates/termpaper/latex/rtemplate.tex", package = "thomastemp")
@@ -7,9 +7,10 @@ termpaper <- function(toc = TRUE) {
   # call the base html_document function
   bookdown::pdf_document2(
     fig_caption = TRUE,
-    latex_engine = xelatex,
+#    latex_engine = "xelatex",
     toc = toc,
-    template = latex
+    template = latex,
+    ...
     )
 
 }
