@@ -9,7 +9,7 @@ termpaper <- function(toc = TRUE, ...) {
     fig_caption = TRUE,
 #    latex_engine = "xelatex",
     toc = toc,
-    template = "",
+    template = latex,
     ...
     )
 
