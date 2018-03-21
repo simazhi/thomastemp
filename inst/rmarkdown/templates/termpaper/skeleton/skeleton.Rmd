@@ -13,7 +13,7 @@ output:
   thomastemp::termpaper:
     latex_engine: xelatex
     toc: no
-    keep_tex: no
+    keep_tex: yes
 
 documentclass: article
 fontsize: 12pt
@@ -87,4 +87,7 @@ knitr::include_graphics(path = "progress.pdf")
 
 
 # References
-
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+\setlength{\parskip}{8pt}
+\noindent
