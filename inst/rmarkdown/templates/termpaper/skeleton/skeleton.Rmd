@@ -10,6 +10,7 @@ bibliography: references.bib
 csl: unified-style-linguistics.csl 
 
 output:
+  thomastemp::termpaper:
     latex_engine: xelatex
     toc: no
     keep_tex: no
