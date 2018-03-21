@@ -19,8 +19,8 @@ $endif$
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
-  
-  
+
+
 $if(euro)$
   \usepackage{eurosym}
 $endif$
@@ -213,8 +213,13 @@ $endif$
 
 $if(abstract)$
 \begin{abstract}
-$abstract$
+\noindent $abstract$
 \end{abstract}
+$endif$
+
+\newcommand*{\keywords}[1]{\textbf{Keywords:} #1}
+$if(keywords)$
+    \keywords{$keywords$}
 $endif$
 
 $for(include-before)$
