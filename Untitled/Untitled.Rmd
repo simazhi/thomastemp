@@ -4,12 +4,13 @@ title: "Study Plan for the Financial Assistance Grant for International Students
 author: "Thomas Van Hoey 司馬智"
 #  institute: "Graduate Institute of Linguistics, National Taiwan University"
 date: "March 2018"
-
-
 bibliography: references.bib
 csl: unified-style-linguistics.csl 
-
 output:
+  thomastemp::termpaper:
+    latex_engine: xelatex
+    toc: no
+    
   bookdown::pdf_document2:
     fig_caption: yes
     latex_engine: xelatex
@@ -21,19 +22,14 @@ output:
 #      before_body: before_body.tex
 #      after_body: after_body.tex
       
-
-
 documentclass: article
 fontsize: 12pt
 geometry: margin=1in
 linestretch: 1
-
 mainfont: Noto Serif
 sansfont: Noto Sans
 CJKmainfont: Noto Sans CJK TC
-
 abstract: \noindent "Here is the abstract. Replace the text within the quotation marks + the quotation marks themselves for the final abstract." \par \textbf{Keywords:} a, b
-
 ---
 
 

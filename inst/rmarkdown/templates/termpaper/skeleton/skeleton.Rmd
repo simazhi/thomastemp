@@ -10,20 +10,9 @@ bibliography: references.bib
 csl: unified-style-linguistics.csl 
 
 output:
-  bookdown::pdf_document2:
-    fig_caption: yes
     latex_engine: xelatex
-    keep_tex: yes
     toc: no
-    template: rtemplate.tex
-  thomastemp::termpaper:
-    latex_engine: xelatex
-#    includes:
-#      in_header: in_header.tex
-#      before_body: before_body.tex
-#      after_body: after_body.tex
-      
-
+    keep_tex: no
 
 documentclass: article
 fontsize: 12pt
