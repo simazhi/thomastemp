@@ -8,9 +8,8 @@ termpaper <- function(toc = TRUE) {
   bookdown::pdf_document2(
     fig_caption = TRUE,
     latex_engine = xelatex,
-    toc: toc,
-    template = latex,
-    ...
+    toc = toc,
+    template = latex
     )
 
 }
