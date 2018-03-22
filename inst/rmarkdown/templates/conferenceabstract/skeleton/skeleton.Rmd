@@ -1,17 +1,12 @@
 ---
 title: "All that glitters is not gold"
-#subtitle: "subtitle"
-#author: 
-#- name: "Thomas Van Hoey"
-#- affiliation: "National Taiwan University"
-#date: "March 2018"
+#subtitle: "This is a subtitle"
+#author: "Thomas Van Hoey"
+#date: ""
 bibliography: latexref.bib
 csl: unified-style-linguistics.csl
 output:
-  bookdown::pdf_document2:
-    latex_engine: xelatex
-    template: template.tex
-  thomastemp::termpaper:
+  thomastemp::conference_abstract:
     latex_engine: xelatex
     toc: no
     keep_tex: yes
@@ -22,13 +17,11 @@ linestretch: 1
 mainfont: Times New Roman
 sansfont: Noto Sans
 CJKmainfont: Noto Sans CJK TC
-
 keywords: Diachronic prototype semantics; ideophones; historical linguistics; lexical semantics
-
 subfield: Cognitive Linguistics; Iconicity; Linguistic Typology
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, out.width="6.5in"}
 knitr::opts_chunk$set(echo = TRUE, fig.pos = "h")
 ```
 
@@ -44,10 +37,10 @@ Using the *Scripta Sinica* corpus [@AcademiaSinicaZhongYangYanJiuYuan2018] as ou
 Furthermore, the four levels of Mental Spaces, Frames, ICMs or Domains, and Image Schemas - argued to be present in metaphor structure as well [@Kovecses2017] - are unifiable into one bigger framework that confirms the place of ideophones between culture and cognition. This study furthers a comprehensive understanding of the semantics of LIGHT ideophones that can be expanded to other semantic fields. It is only through the long history of Chinese literary works, that we can trace back, and find evidence for the symbolic nature of ideophonic lexicalization. 
 
 
-
-
 ```{r, yaoyao, fig.margin=TRUE, fig.cap='yaoyao 燿燿 and yaoyao 耀耀', echo=FALSE}
 knitr::include_graphics(rep("yaoyao.pdf"))
 ```
+
+\newpage
 
 **References**
