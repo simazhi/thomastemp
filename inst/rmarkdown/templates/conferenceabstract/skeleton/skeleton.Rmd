@@ -1,0 +1,53 @@
+---
+title: "All that glitters is not gold"
+#subtitle: "subtitle"
+#author: 
+#- name: "Thomas Van Hoey"
+#- affiliation: "National Taiwan University"
+#date: "March 2018"
+bibliography: latexref.bib
+csl: unified-style-linguistics.csl
+output:
+  bookdown::pdf_document2:
+    latex_engine: xelatex
+    template: template.tex
+  thomastemp::termpaper:
+    latex_engine: xelatex
+    toc: no
+    keep_tex: yes
+documentclass: article
+fontsize: 12pt
+geometry: margin=1in
+linestretch: 1
+mainfont: Times New Roman
+sansfont: Noto Sans
+CJKmainfont: Noto Sans CJK TC
+
+keywords: Diachronic prototype semantics; ideophones; historical linguistics; lexical semantics
+
+subfield: Cognitive Linguistics; Iconicity; Linguistic Typology
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.pos = "h")
+```
+
+Ideophones, cross-linguistically defined as "marked words that depict sensory imagery" [@Dingemanse2012], have been receiving renewed interest in the last two decades in Chinese and other Sinitic languages [@Sun1999; @Mok2001; @Meng2012; @Wu2014; @VanHoey2015; @VanHoey2016c]. However, most of these studies have focused on the synchronic formal aspects of these words, namely (partial) reduplication, or *ABB*-like schemas. It is rarely discussed on how these ideophones were used in terms of contexts. This innovative study explores the semantics of Chinese ideophones from a diachronic perspective, aiming to reveal the relations between the contexts and ideophones, and to trace the semantic change of a particular group of ideophone, the shiny ideophones.
+
+Using the *Scripta Sinica* corpus [@AcademiaSinicaZhongYangYanJiuYuan2018] as our data source, we show that literary Chinese ideophones in the lexical field of LIGHT are highly dynamic in their polysemous semantic structure as they developed through time. Four case studies demonstrate that a levelled approach with attention to diachronic prototype semantics [@Geeraerts1997] reveal different aspects of the nature of ideophones and their meanings: 
+
+1. The meanings of the investigated ideophones tend to be concentrated in prototypical bundles with extensions to fuzzy edges.
+2. Different homophonous lexical items may influence each other in terms of their semantic preference. As an example, see the two variants for *yaoyao* 耀耀 and 燿燿 in figure \@ref(fig:yaoyao). 
+3. Type and token frequency effects influence the entrenchment of certain meanings.
+4. Prototypicality is shown to be transient, from the semasiological perspective as well as from the onomasiological perspective. 
+
+Furthermore, the four levels of Mental Spaces, Frames, ICMs or Domains, and Image Schemas - argued to be present in metaphor structure as well [@Kovecses2017] - are unifiable into one bigger framework that confirms the place of ideophones between culture and cognition. This study furthers a comprehensive understanding of the semantics of LIGHT ideophones that can be expanded to other semantic fields. It is only through the long history of Chinese literary works, that we can trace back, and find evidence for the symbolic nature of ideophonic lexicalization. 
+
+
+
+
+```{r, yaoyao, fig.margin=TRUE, fig.cap='yaoyao 燿燿 and yaoyao 耀耀', echo=FALSE}
+knitr::include_graphics(rep("yaoyao.pdf"))
+```
+
+**References**
